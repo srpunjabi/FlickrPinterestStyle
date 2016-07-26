@@ -11,7 +11,7 @@
 		EF12E7661CD0125B0048395C /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF12E7651CD0125B0048395C /* ImageRequest.swift */; };
 		EF1A48231CF4CBEA00F29A5D /* FlickrKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF1A48221CF4CBEA00F29A5D /* FlickrKeys.plist */; };
 		EF8203E71CCBFAF900315970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8203E61CCBFAF900315970 /* AppDelegate.swift */; };
-		EF8203E91CCBFAF900315970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8203E81CCBFAF900315970 /* ViewController.swift */; };
+		EF8203E91CCBFAF900315970 /* FlickrGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8203E81CCBFAF900315970 /* FlickrGridViewController.swift */; };
 		EF8203EC1CCBFAF900315970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8203EA1CCBFAF900315970 /* Main.storyboard */; };
 		EF8203EE1CCBFAF900315970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8203ED1CCBFAF900315970 /* Assets.xcassets */; };
 		EF8203F11CCBFAF900315970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8203EF1CCBFAF900315970 /* LaunchScreen.storyboard */; };
@@ -30,7 +30,7 @@
 		EF1A48221CF4CBEA00F29A5D /* FlickrKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FlickrKeys.plist; sourceTree = "<group>"; };
 		EF8203E31CCBFAF900315970 /* FlickrPinterestStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrPinterestStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8203E61CCBFAF900315970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF8203E81CCBFAF900315970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8203E81CCBFAF900315970 /* FlickrGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrGridViewController.swift; sourceTree = "<group>"; };
 		EF8203EB1CCBFAF900315970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF8203ED1CCBFAF900315970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF8203F01CCBFAF900315970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		EF8203F91CCBFB2100315970 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EF8203E81CCBFAF900315970 /* ViewController.swift */,
+				EF8203E81CCBFAF900315970 /* FlickrGridViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF8203E91CCBFAF900315970 /* ViewController.swift in Sources */,
+				EF8203E91CCBFAF900315970 /* FlickrGridViewController.swift in Sources */,
 				EF8203E71CCBFAF900315970 /* AppDelegate.swift in Sources */,
 				EF8203FD1CCBFB8F00315970 /* ImageData.swift in Sources */,
 				EF8207A31CCD5DB5000E0D0B /* FlickrPhotoLibrary.swift in Sources */,

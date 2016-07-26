@@ -17,7 +17,7 @@ protocol FlickrPhotosDataSource
     func loadPhotoForIndex(index:Int, completionHandler:(image:UIImage?) -> Void) -> Request?
 }
 
-class ViewController: UIViewController
+class FlickrGridViewController: UIViewController
 {
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -35,7 +35,7 @@ class ViewController: UIViewController
 }
 
 //MARK:- CollectionView Delegates
-extension ViewController: UICollectionViewDataSource
+extension FlickrGridViewController: UICollectionViewDataSource
 {
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int
     {
@@ -74,7 +74,7 @@ extension ViewController: UICollectionViewDataSource
 }
 
 //MARK:-  Search TextField Delegate
-extension ViewController: UITextFieldDelegate
+extension FlickrGridViewController: UITextFieldDelegate
 {
     func textFieldShouldReturn(textField: UITextField) -> Bool
     {
@@ -109,7 +109,7 @@ extension ViewController: UITextFieldDelegate
 }
 
 //MARK:- PinterestLayout Delegate
-extension ViewController:PinterestLayoutDelegate
+extension FlickrGridViewController:PinterestLayoutDelegate
 {
     //returns the height for a photo at a given index
     func collectionView(collectionView: UICollectionView, heightForPhotoAtIndexPath indexpath: NSIndexPath, withWidth width: CGFloat) -> CGFloat
