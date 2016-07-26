@@ -1,0 +1,6 @@
+framework module Pods_FlickrPinterestStyle {
+  umbrella header "Pods-FlickrPinterestStyle-umbrella.h"
+
+  export *
+  module * { export * }
+}
